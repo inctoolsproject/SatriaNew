@@ -16,29 +16,29 @@ from selenium import webdriver
 
 
 cl = LINETCR.LINE()
-#cl.login(qr=True)
-cl.login(token="E-nWHueN0X3H2YVE7udB7.Z5dZj+9d8leWPjbGoQgLbW.Z5kl6sB2sCDXEznVE9ISfY8JnyO1gvVdT5f1/o9g8KI=")
+cl.login(qr=True)
+#cl.login(token="tokenmu")
 #cl.login(token='')
 cl.loginResult()
 
 ki = LINETCR.LINE()
-#ki.login(qr=True)
-ki.login(token="E-n606ey3b8owykq8TH02.j+htB61xFaOBveG8WCN6qG.X9ET8Y7Zq7pCwPzydef9gtwPiT0rpoxQGREW/RDNwsA=")
+ki.login(qr=True)
+#ki.login(token="tokenmu")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-#kk.login(qr=True)
-kk.login(token="E-nJkhMiKa7mkysDskk62.mCF1PtVgMpva14I/j0omGG.tIbu3UR4wakYjdaw7AQUFIpfOnmLC0wdrFeb0lXo0CE=")
+kk.login(qr=True)
+kk.login(token="tokenmu")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-#kc.login(qr=True)
-kc.login(token="E-nWGHVcGOs6457H5XPq8.G+8OACVuVi8H6CZ7hV7FMa.Eoq5VFpcEtaVhwacay95GTzu9tJoR8y0cMB1YI55X2k=")
+kc.login(qr=True)
+#kc.login(token="tokenmu")
 kc.loginResult()
 
 #ks = LINETCR.LINE()
-#ks.login(qr=True)
-#ks.login(token="E-nBAC5CLyl7eQ4CYfY34.7NNpKPNfl6IvFKe/mnnDva.3zOOtKX77H2fBudoOn6I5tw+AJsg52fXhyKKM89c3z8=")
+ks.login(qr=True)
+#ks.login(token="tokenmu")
 #ks.loginResult()
 
 
@@ -2409,3 +2409,4 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
+#Edited By Fal		
